@@ -116,6 +116,17 @@
  .h2 {
    color: #efff10;
  }
+
+.carousel-control-prev {
+color: blue;
+font-size: xx-large;
+
+}
+ .carousel-control-next {
+   color: blue;
+   font-size: xx-large;
+
+ }
  
  a img {
    opacity: 1;
