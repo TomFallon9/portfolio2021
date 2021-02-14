@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <title>Home</title>
+</head>
+
+<body data-target="navbarResponsive">
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-md navbar-light float-left" id="navbar">
+    <a class="navbar-brand" href="#">Thomas Fallon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- nagivation links -->
+    <div class="collapse navbar-collapse float-right" id="collapsibleNavbar">
+      <div class="navbar-nav ml-auto float-right">
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="about.html">About Me</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <a class="nav-item nav-link" target="_blank" href="Assets/resume.pdf">Resume</a>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- page heading with background computer image-->
+  <header class="welcome container-fluid">
+    <div id="header-box" class="text-center rounded-pill">
+      <h1>Welcome!</h1>
+    </div>
+  </header>
+
+  <!-- description -->
+  <main class="container p-3 text-center">
+
+    <p>Welcome to my Portfolio</p>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <h3>My name is Thomas Fallon and I'm a Software Developer based in Leominster Massachusetts. I am currently
+            attending the University of New Hampshire's Coding Bootcamp. Check out some of my latest work! Also, find me
+            on Linkedin & Github on the links below!</h3>
+
+        </div>
+        <div class="col-md-4">
+          <img class="rounded-circle" src="assets/tom12.jfif" height="200" width="200" alt="picture of ThomasFallon" />
+        </div>
+      </div>
+    </div>
+    <hr class="before-footer" />
+  </main>
+
+  <!-- social media links-->
+  <footer class="socials">
+    <div class="container">
+      <div class="row">
+        <!--Linkedin -->
+        <div class="col-6">
+          <p>
+            <a href="https://www.linkedin.com/in/thomas-fallon9/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+        <!--  GitHub -->
+        <div class="col-6">
+          <p>
+            <a href="https://github.com/TomFallon9" target="_blank">
+              <i class="fab fa-github-alt"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script>
+    /* Hides navbar when scrolling down then shows it when scrolling up */
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-100px";
+      }
+      prevScrollpos = currentScrollPos;
+    };
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="assets/script.js"></script>
+</body>
+
+</html>

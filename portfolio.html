@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel='icon' href='favicon.ico' type='image/x-icon' />
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+   <link rel="stylesheet" href="assets/style.css" />
+   <style>
+      body {
+         background-image: url(assets/workDesk.jpg),
+            linear-gradient(#d7e5e8, #c0d3d9);
+         min-height: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-bottom: 0;
+      }
+   </style>
+
+   <title>Portfolio</title>
+</head>
+
+<body data-target="navbarResponsive">
+   <!-- start navbar -->
+   <nav class="navbar navbar-expand-md navbar-light float-left" id="navbar">
+      <a class="navbar-brand" href="index.html">Thomas Fallon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navigation links -->
+      <div class="collapse navbar-collapse float-right" id="collapsibleNavbar">
+         <div class="navbar-nav ml-auto float-right">
+            <a class="nav-item nav-link active" href="#">Portfolio</a>
+            <a class="nav-item nav-link" href="about.html">About Me</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" target="_blank" href="assets/resume.pdf">Resume</a>
+         </div>
+      </div>
+   </nav>
+   <!-- end navbar -->
+
+   <!-- page heading with picture of me in the background-->
+   <div id="header-box" class="text-center rounded-pill">
+      <h1>Projects</h1>
+   </div>
+
+   <!-- start container containing the carousel -->
+   <div class="container add-margin">
+      <!-- start row -->
+      <div class="row">
+         <div class="col-1"></div>
+
+         <!-- carousel left arrow -->
+         <div class="col-1">
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+               <p><i class="fas fa-angle-double-left"></i></p>
+            </a>
+         </div>
+
+         <!-- start carousel content (between the arrows) -->
+         <div id="myCarousel" class="col-8 carousel slide" data-ride="carousel" data-interval="false">
+            <!-- carousel indicators -->
+            <ul class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+            <!-- portfolio items -->
+            <div class="carousel-inner">
+               <!-- Surprise Meal -->
+               <div class="carousel-item col-md-12 row active">
+                  <div class="carousel-text col-md-6">
+                     <h2>
+                        This app allows users to recieve a randomly generated meal from the country of their choice.
+                        User picks a country and then is given a selected recipe from that region. If user wants to save
+                        the recipe they can save it to Favorites
+                     </h2>
+                     <p>
+
+                     </p>
+                     <a href="https://github.com/TomFallon9/Surprise-Meal" target="_blank">Surprise Me-al</a>
+                  </div>
+
+                  <img class="img-fluid rounded" src="assets/projectGif1.gif" alt="Surprise Meal" />
+               </div>
+               <!-- Weather App -->
+               <div class="carousel-item col-md-12">
+                  <div class="carousel-text col-md-6">
+                     <h2>
+                        This app allows users to get the five day forecast for the location of their choice.
+                        Built with Javascript, HTML, CSS, OpenWeatherMap API
+                     </h2>
+                     <p>
+
+                     </p>
+                     <a href="https://github.com/TomFallon9/Weather-FiveDayForecast" target="_blank">Weather
+                        Application</a>
+                  </div>
+                  <a href="https://tomfallon9.github.io/Weather-FiveDayForecast/" target="_blank"><img
+                        class="img-fluid rounded" src="assets/Screenshot22.png" alt="Weather App" /></a>
+               </div>
+               <!-- Daily Planner -->
+               <div class="carousel-item col-md-12">
+                  <div class="carousel-text col-md-6">
+                     <h2>
+                        Built with JavaScript, HTML, CSS, Moment.JS
+                     </h2>
+                     <p>
+                        Daily Planner Application for users on the go with a busy schedule in need of orgainzation
+                     </p>
+                     <a href="https://github.com/TomFallon9/Daily-Planner" target="_blank">Daily Planner</a>
+                  </div>
+                  <a href="https://tomfallon9.github.io/Daily-Planner/" target="_blank"><img class="img-fluid rounded"
+                        src="assets/Screenshot19.png" alt="template engine" /></a>
+               </div>
+            </div>
+            <!-- end portfolio items -->
+         </div>
+         <!-- end carousel content (between the arrows) -->
+
+         <!-- carousel right arrow -->
+         <div class="col-1">
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+               <p><i class="fas fa-angle-double-right"></i></p>
+            </a>
+         </div>
+      </div>
+      <!-- end row -->
+   </div>
+   <!-- end container -->
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+   <script src="assets/script.js"></script>
+</body>
+
+</html>
