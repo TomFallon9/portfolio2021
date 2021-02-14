@@ -1,319 +1,311 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 
- 
- body,
- html {
-   width: 100%;
-   height: 100%;
-   margin: 0px;
-   padding: 0px;
- }
- 
- p {
-   letter-spacing: 0.1rem;
- }
- 
- h2,
- h3,
- label,
- button {
-   font-size: 20px;
-   position: relative;
-   letter-spacing: 0.1rem;
-   font-weight: 600;
-   padding-top: 10px;
- }
- 
- .container-fluid {
-   overflow-x: hidden;
- }
- 
- /* navigation */
- 
- .navbar {
-   text-transform: uppercase;
-   font-weight: 700;
-   letter-spacing: 0.2rem;
-   font-size: 16px;
-   z-index: 10;
- }
- 
- .nav-item {
-   margin-left: 20px;
-   text-align: right;
- }
- 
- #navbar {
-   margin-top: 0px;
-   position: fixed; /* Make it stick/fixed */
-   width: 100%;
-   transition: top 0.3s; /* transition when sliding up or down */
- }
- 
- /* heading (1 per page) */
- 
- #header-box {
-   margin: 0 auto;
-   position: relative;
-   top: 20%;
-   width: 300px;
-   height: 60px;
-   background: white;
-   z-index: 1;
- }
- 
- #header-box h1 {
-   text-transform: uppercase;
-   font-size: 20px;
-   position: relative;
-   letter-spacing: 0.2rem;
-   font-weight: 700;
-   padding-top: 20px;
- }
- 
- /* index.html */
- 
- .welcome {
-   background-image: url(workDesk.jpg),
-     linear-gradient(#d7e5e8, #c0d3d9);
-   height: 100%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- /* portfolio.html */
- 
- .add-margin {
-   margin-top: 210px;
- }
- 
- .carousel-text {
-   float: left;
- }
- 
- .carousel-indicators {
-   position: relative;
- }
- 
- .carousel-indicators li {
-   width: 10px;
-   height: 10px;
-   border-radius: 100%;
-   border-color: #efff10;
-   
- }
- .carousel-inner {
-   color: #fbff10;
-   background-color: #b5b8b9;
- }
- 
- .carousel-inner img {
-   height: 50%;
-   width: 50%;
-   float: right;
-   border-color: #000000;
- }
- .h2 {
-   color: #efff10;
- }
+p {
+  letter-spacing: 0.1rem;
+}
+
+h2,
+h3,
+label,
+button {
+  font-size: 20px;
+  position: relative;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+}
+
+/* navigation */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-size: 16px;
+  z-index: 10;
+}
+
+.nav-item {
+  margin-left: 20px;
+  text-align: right;
+}
+
+#navbar {
+  margin-top: 0px;
+  position: fixed; /* Make it stick/fixed */
+  width: 100%;
+  transition: top 0.3s; /* transition when sliding up or down */
+}
+
+/* heading (1 per page) */
+
+#header-box {
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+  width: 300px;
+  height: 60px;
+  background: white;
+  z-index: 1;
+}
+
+#header-box h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  position: relative;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+/* index.html */
+
+.welcome {
+  background-image: url(workDesk.jpg), linear-gradient(#d7e5e8, #c0d3d9);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* portfolio.html */
+
+.add-margin {
+  margin-top: 210px;
+}
+
+.carousel-text {
+  float: left;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border-color: #efff10;
+}
+.carousel-inner {
+  color: #fbff10;
+  background-color: #b5b8b9;
+}
+
+.carousel-inner img {
+  height: 50%;
+  width: 50%;
+  float: right;
+  border-color: #000000;
+}
+.h2 {
+  color: #efff10;
+}
 
 .carousel-control-prev {
-color: blue;
-font-size: xx-large;
-
+  color: blue;
+  font-size: xx-large;
 }
- .carousel-control-next {
-   color: blue;
-   font-size: xx-large;
+.carousel-control-next {
+  color: blue;
+  font-size: xx-large;
+}
 
- }
- 
- a img {
-   opacity: 1;
-   transition: 0.9s ease;
-   border-style: solid;
-   border-color: #10c7ff;
- }
- 
- a:hover img {
-   opacity: 0.7;
-   transition: 0.3s ease;
- }
- 
- /* contact.html specifiers */
- 
- .contact {
-   background: url(workDesk.jpg),
-     linear-gradient(#d7e5e8, #c0d3d9);
-   height: 100%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- input,
- textarea {
-   font-weight: 500;
-   letter-spacing: 0.12rem;
-   font-size: 12px;
- }
- 
- .btn-light {
-   background: #d7e5e8;
-   transition: 0.4s ease;
- }
- 
- .btn-light:hover {
-   background: white;
-   transition: 0.3 ease;
- }
- 
- /* aboutme.html specifiers */
- 
- .aboutme {
-   background: url(workDesk.jpg),
-     linear-gradient(#d7e5e8, #c0d3d9);
-   height: 100%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- 
- /* timeline vertical line */
- .timeline {
-   list-style: none;
-   padding: 20px 0 20px;
-   position: relative;
- }
- 
- .timeline:before {
-   top: 40px;
-   bottom: 40px;
-   position: absolute;
-   content: " ";
-   width: 3px;
-   background-color: #929697;
-   left: 50%;
-   margin-left: -3px;
- }
- 
- /* line up circles to the panels */
- .timeline li {
-   margin-bottom: 20px;
-   position: relative;
- }
- 
- .timeline li .timeline-badge {
-   color: #fff;
-   width: 50px;
-   height: 50px;
-   line-height: 50px;
-   font-size: 1.4em;
-   text-align: center;
-   position: absolute;
-   top: 16px;
-   left: 50%;
-   margin-left: -25px;
-   background-color: #10c7ff;
-   border-radius: 50%;
- }
- 
- /* spacing between panels */
- .timeline li:before,
- .timeline li:after {
-   content: " ";
-   display: block;
-   clear: both;
- }
- /* panel styling */
- .timeline li .timeline-panel {
-   width: 50%;
-   float: left;
-   border: 1px solid #10c7ff;
-   border-radius: 10px;
-   padding: 20px;
-   position: relative;
- }
- 
- /* left column padding from line */
- .timeline li:not(.timeline-inverted) {
-   padding-right: 90px;
- }
- 
- /* right column padding from line */
- .timeline li.timeline-inverted {
-   padding-left: 90px;
- }
- 
- /* right column */
- .timeline li.timeline-inverted .timeline-panel {
-   float: right;
- }
- 
- /* triangle arrows on panel (blue border) */
- .timeline li .timeline-panel:before {
-   position: absolute;
-   top: 26px;
-   right: -15px;
-   display: inline-block;
-   border-top: 15px solid transparent;
-   border-left: 15px solid #10c7ff;
-   border-right: 0 solid #10c7ff;
-   border-bottom: 15px solid transparent;
-   content: " ";
- }
- 
- /* triangle arrows on panel (white triangle)*/
- .timeline li .timeline-panel:after {
-   position: absolute;
-   top: 27px;
-   right: -12px;
-   display: inline-block;
-   border-top: 12px solid transparent;
-   border-left: 12px solid #fff;
-   border-right: 0 solid #fff;
-   border-bottom: 14px solid transparent;
-   content: " ";
- }
- 
- /* flips the triangles to the left side on the right column panels */
- .timeline li.timeline-inverted .timeline-panel:before {
-   border-left-width: 0;
-   border-right-width: 15px;
-   left: -15px;
-   right: auto;
- }
- 
- .timeline li.timeline-inverted .timeline-panel:after {
-   border-left-width: 0;
-   border-right-width: 14px;
-   left: -14px;
-   right: auto;
- }
- 
- /* footer */
- 
- .before-footer {
-   margin-bottom: 60px;
- }
- 
- .socials {
-   padding-top: 16px;
-   text-align: center;
-   z-index: 15;
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: white;
- }
- 
- footer i {
-   transition: 0.4s ease;
-   font-size: 20px;
- }
- 
- footer i:hover {
-   color: #c0d3d9;
-   transition: 0.3s ease;
- }
+a img {
+  opacity: 1;
+  transition: 0.9s ease;
+  border-style: solid;
+  border-color: #10c7ff;
+}
+
+a:hover img {
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+/* contact.html specifiers */
+
+.contact {
+  background: url(workDesk.jpg), linear-gradient(#d7e5e8, #c0d3d9);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,
+textarea {
+  font-weight: 500;
+  letter-spacing: 0.12rem;
+  font-size: 12px;
+}
+
+.btn-light {
+  background: #d7e5e8;
+  transition: 0.4s ease;
+}
+
+.btn-light:hover {
+  background: white;
+  transition: 0.3 ease;
+}
+
+/* aboutme.html specifiers */
+
+.aboutme {
+  background: url(workDesk.jpg), linear-gradient(#d7e5e8, #c0d3d9);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* timeline vertical line */
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+.timeline:before {
+  top: 40px;
+  bottom: 40px;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #929697;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* line up circles to the panels */
+.timeline li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline li .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #10c7ff;
+  border-radius: 50%;
+}
+
+/* spacing between panels */
+.timeline li:before,
+.timeline li:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* panel styling */
+.timeline li .timeline-panel {
+  width: 50%;
+  float: left;
+  border: 1px solid #10c7ff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+/* left column padding from line */
+.timeline li:not(.timeline-inverted) {
+  padding-right: 90px;
+}
+
+/* right column padding from line */
+.timeline li.timeline-inverted {
+  padding-left: 90px;
+}
+
+/* right column */
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+}
+
+/* triangle arrows on panel (blue border) */
+.timeline li .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #10c7ff;
+  border-right: 0 solid #10c7ff;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+/* triangle arrows on panel (white triangle)*/
+.timeline li .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -12px;
+  display: inline-block;
+  border-top: 12px solid transparent;
+  border-left: 12px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+/* flips the triangles to the left side on the right column panels */
+.timeline li.timeline-inverted .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline li.timeline-inverted .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+/* footer */
+
+.before-footer {
+  margin-bottom: 60px;
+}
+
+.socials {
+  padding-top: 16px;
+  text-align: center;
+  z-index: 15;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+footer i {
+  transition: 0.4s ease;
+  font-size: 20px;
+}
+
+footer i:hover {
+  color: #c0d3d9;
+  transition: 0.3s ease;
+}
