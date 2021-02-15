@@ -25,4 +25,4 @@ Portfolio with my latest builds and projects 2021
 
 
 ## Live 
-[Portfoliol](https://tomfallon9.github.io/portfolio2021/)
+[Portfolio](https://tomfallon9.github.io/portfolio2021/)
