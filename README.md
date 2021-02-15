@@ -12,14 +12,10 @@
 * [Live](#Live)
 
 ## Description
-Portfolio with latest builds and projects. 
+Portfolio with my latest builds and projects 2021 
 
 
-
-
-You will then be directed to the results page where you will find your recipe as well as a random drink to accompany your meal. You have the option of saving the meal as well.
-
-<p><img src="assets/"</p>
+<p><img src="assets/Screenshot27.png"></p>
 
 
 
